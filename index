@@ -1,0 +1,140 @@
+<!DOCTYPE html>  <!-- diz pro navegador que esse é um arquivo HTML moderno -->
+<html lang="pt-br">  <!-- abre o documento HTML e define o idioma como português -->
+<head>  <!-- área de configurações da página, o usuário não vê essa parte -->
+  <meta charset="UTF-8" />  <!-- permite usar acentos e caracteres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- faz a página funcionar bem no celular -->
+  <title>@darasartesanatos</title>  <!-- nome que aparece na aba do navegador -->
+
+  <style>  <!-- aqui começa o CSS, que cuida do visual da página -->
+
+    * {  /* o asterisco significa "aplique isso em TODOS os elementos da página" */
+      margin: 0;  /* remove espaços externos padrão do navegador */
+      padding: 0;  /* remove espaços internos padrão do navegador */
+      box-sizing: border-box;  /* faz o tamanho dos elementos ser mais previsível */
+    }
+
+    body {  /* estiliza o corpo da página inteira */
+      min-height: 100vh;  /* garante que a página ocupa pelo menos a altura toda da tela */
+      background-image: url("bed6c2e6dbe30e209cce01a83335c272.jpg");  /* imagem de fundo */
+      background-size: cover;  /* estica a imagem pra cobrir a página toda */
+      background-position: center;  /* centraliza a imagem de fundo */
+      background-attachment: fixed;  /* faz o fundo ficar parado enquanto a página rola */
+      font-family: 'Georgia', serif;  /* define a fonte do texto da página */
+      display: flex;  /* ativa o modo flexbox, que facilita organizar os elementos */
+      justify-content: center;  /* centraliza o conteúdo horizontalmente */
+      padding: 3rem 1rem;  /* coloca um respiro em volta do conteúdo */
+    }
+
+    .container {  /* estiliza a caixinha central que agrupa tudo */
+      width: 100%;  /* ocupa 100% da largura disponível */
+      max-width: 420px;  /* mas nunca passa de 420px (fica bonito no celular) */
+      display: flex;  /* ativa flexbox dentro do container também */
+      flex-direction: column;  /* empilha os elementos um embaixo do outro */
+      align-items: center;  /* centraliza os elementos horizontalmente */
+      gap: 1rem;  /* coloca um espaço de 1rem entre cada elemento filho */
+    }
+
+    .perfil {  /* estiliza a área do topo com foto, nome e frase */
+      display: flex;  /* ativa flexbox aqui também */
+      flex-direction: column;  /* empilha foto, nome e frase verticalmente */
+      align-items: center;  /* centraliza tudo horizontalmente */
+      gap: 0.6rem;  /* espaço pequeno entre foto, nome e frase */
+      margin-bottom: 1.5rem;  /* espaço embaixo da área de perfil, antes dos botões */
+    }
+
+    .perfil img {  /* estiliza a foto de perfil */
+      width: 110px;  /* largura da foto */
+      height: 110px;  /* altura da foto */
+      border-radius: 50%;  /* arredonda até virar círculo */
+      object-fit: cover;  /* corta a foto pra caber no círculo sem distorcer */
+      border: 4px solid #f4a7c3;  /* borda rosa em volta da foto */
+      box-shadow: 0 4px 12px rgba(180, 80, 120, 0.2);  /* sombra suave embaixo da foto */
+    }
+
+    .perfil h1 {  /* estiliza o texto do @ nome */
+      font-size: 1.2rem;  /* tamanho do texto */
+      color: #7a2f52;  /* cor rosa escuro */
+      font-weight: bold;  /* deixa o texto em negrito */
+    }
+
+    .perfil p {  /* estiliza a frase curta embaixo do nome */
+      font-size: 0.85rem;  /* texto um pouco menor que o nome */
+      color: #a0526e;  /* rosa médio */
+      text-align: center;  /* centraliza o texto */
+    }
+
+    .botao {  /* estiliza todos os botões */
+      display: flex;  /* coloca ícone e texto lado a lado */
+      align-items: center;  /* centraliza verticalmente */
+      gap: 10px;  /* espaço entre o ícone e o texto */
+      width: 100%;  /* botão ocupa a largura toda do container */
+      padding: 14px 20px;  /* espaço interno do botão */
+      background-color: rgba(255, 255, 255, 0.75);  /* fundo branco levemente transparente */
+      border: 2px solid #f4a7c3;  /* borda rosa */
+      border-radius: 50px;  /* deixa o botão bem arredondado */
+      text-decoration: none;  /* remove o sublinhado do link */
+      color: #7a2f52;  /* cor do texto */
+      font-size: 1rem;  /* tamanho do texto */
+      font-weight: bold;  /* texto em negrito */
+      transition: 0.3s;  /* animação suave no hover */
+    }
+
+    .botao:hover {  /* efeito quando o mouse passa por cima */
+      background-color: #f4a7c3;  /* fundo fica rosa */
+      color: white;  /* texto fica branco */
+    }
+
+    .icone {  /* estiliza o ícone/logo da plataforma */
+      width: 24px;  /* largura do ícone */
+      height: 24px;  /* altura do ícone */
+      object-fit: contain;  /* mantém proporção do logo sem distorcer */
+    }
+
+.botao-portfolio {  /* estilo especial só pro botão do portfólio */
+  border-color: #9b87f5;  /* roxa — mesma cor do seu portfólio */
+  color: #9b87f5;  /* texto roxo */
+}
+
+.botao-portfolio:hover {  /* efeito hover do portfólio */
+  background-color: #9b87f5;  /* fundo fica roxo */
+  color: white;  /* texto fica branco */
+}
+  </style>  <!-- aqui termina o CSS -->
+</head>
+
+<body>  <!-- aqui começa o conteúdo visível da página -->
+
+  <div class="container">  <!-- abre a caixinha central -->
+
+    <div class="perfil">  <!-- abre a área de perfil -->
+      <img src="Snapchat-1785395538.jpg" alt="foto de perfil" />  <!-- foto de perfil -->
+      <h1>@darasartesanatos</h1>  <!-- seu nome/@ em destaque -->
+      <p>artesanato 🌸 livros 🌸 landing pages 🌸</p>  <!-- frase sobre você -->
+    </div>  <!-- fecha a área de perfil -->
+
+    <!-- botões aqui dentro do container -->
+    <a href="https://www.enjoei.com.br/@dara-5079d0" target="_blank" class="botao">
+      <img src="logo-enjoei.png" alt="Enjoei" class="icone" />  <!-- logo da plataforma -->
+      Minha loja no Enjoei 🛍️  <!-- texto do botão -->
+    </a>
+
+    <a href="https://www.amazon.com.br/Antes-do-Sim-Dara-Ellen-ebook/dp/B0GT7LNX6J/ref=sr_1_2?crid=12STXOZCCYJA7&dib=eyJ2IjoiMSJ9.GcAjfk8FzgIShjaKxoKHnZs2N33hob0fuitNA7-sy_qZnA79RzOl5nAAlyddKyfb4aTJCriXSHmmkPa3IfJlXfUQhUXX-pGxZfC2LDoAJ3DclePvm3Vi26EmR31jy1aOzmhzpJ_KVo9Xq9iY9gtUmOx-0DwGgOVY3p4LpWW9ItYrDFKQnwtc47aleUGmWfHYaVldvl4ZPOzt7gxDxfqk_WJsBeRRBVN-9MbCCa7GczVp9lBg5VxPu3pyP4v7mT9LPcxECaRoX-1FMd4eQbbqxRdGaL23kQ5uow999-6XMEU.i1ZqjnKtt0hjDqWvqQzS2jdA-oQYMEnlM9pxcNluDsU&dib_tag=se&keywords=dara+ellen&qid=1776483321&sprefix=%2Caps%2C229&sr=8-2" target="_blank" class="botao">
+      <img src="logo-enjoei.png" alt="Amazon" class="icone" />  <!-- logo da plataforma -->
+      Ebook - Antes do Sim 📖  <!-- texto do botão -->
+    </a>
+
+    <a href="https://clubedeautores.com.br/livro/antes-do-sim-5" class="botao">
+      <img src="logo-enjoei.png" alt="Clube dos Autores" class="icone" />  <!-- logo da plataforma -->
+      Livro - Antes do Sim 📖  <!-- texto do botão -->
+    </a>
+
+    <!-- botão do portfólio — estilo diferenciado -->
+<a href="https://magenta-frangipane-d56535.netlify.app/" target="_blank" class="botao botao-portfolio">
+  <img src="logo-portfolio.png" alt="Portfólio" class="icone" />
+  Meu portfólio 💻
+</a>
+    
+  </div>  <!-- fecha a caixinha central -->
+
+</body>  <!-- fecha o conteúdo visível -->
+</html>  <!-- fecha o documento HTML -->

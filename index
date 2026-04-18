@@ -1,6 +1,7 @@
 <!DOCTYPE html>  <!-- diz pro navegador que esse é um arquivo HTML moderno -->
 <html lang="pt-br">  <!-- abre o documento HTML e define o idioma como português -->
 <head>  <!-- área de configurações da página, o usuário não vê essa parte -->
+<link rel="icon" href="Snapchat-1785395538.jpg" />
   <meta charset="UTF-8" />  <!-- permite usar acentos e caracteres especiais -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- faz a página funcionar bem no celular -->
   <title>@darasartesanatos</title>  <!-- nome que aparece na aba do navegador -->
@@ -119,12 +120,12 @@
     </a>
 
     <a href="https://www.amazon.com.br/Antes-do-Sim-Dara-Ellen-ebook/dp/B0GT7LNX6J/ref=sr_1_2?crid=12STXOZCCYJA7&dib=eyJ2IjoiMSJ9.GcAjfk8FzgIShjaKxoKHnZs2N33hob0fuitNA7-sy_qZnA79RzOl5nAAlyddKyfb4aTJCriXSHmmkPa3IfJlXfUQhUXX-pGxZfC2LDoAJ3DclePvm3Vi26EmR31jy1aOzmhzpJ_KVo9Xq9iY9gtUmOx-0DwGgOVY3p4LpWW9ItYrDFKQnwtc47aleUGmWfHYaVldvl4ZPOzt7gxDxfqk_WJsBeRRBVN-9MbCCa7GczVp9lBg5VxPu3pyP4v7mT9LPcxECaRoX-1FMd4eQbbqxRdGaL23kQ5uow999-6XMEU.i1ZqjnKtt0hjDqWvqQzS2jdA-oQYMEnlM9pxcNluDsU&dib_tag=se&keywords=dara+ellen&qid=1776483321&sprefix=%2Caps%2C229&sr=8-2" target="_blank" class="botao">
-      <img src="logo-enjoei.png" alt="Amazon" class="icone" />  <!-- logo da plataforma -->
+      <img src="logo-amazon.jpg" alt="Amazon" class="icone" />  <!-- logo da plataforma -->
       Ebook - Antes do Sim 📖  <!-- texto do botão -->
     </a>
 
     <a href="https://clubedeautores.com.br/livro/antes-do-sim-5" class="botao">
-      <img src="logo-enjoei.png" alt="Clube dos Autores" class="icone" />  <!-- logo da plataforma -->
+      <img src="logo-clubedosautores.jpg" alt="Clube dos Autores" class="icone" />  <!-- logo da plataforma -->
       Livro - Antes do Sim 📖  <!-- texto do botão -->
     </a>
 
